@@ -1,3 +1,8 @@
+#- можливо, прибрати сам опис функцій? задля полегшення процесу перевірки. але це не критично;
+#- у def multiple_ints відредагувати прогалини ( перед "=" та "==");
+#- реалізація def is_word_in_text може займати 1 рядок;
+#- def simple_sort має бути виконана без built-in methods
+
 """
 This is a list of functions that should be completed.
 """
@@ -118,7 +123,7 @@ def some_loop_exercise() -> list:
     return lp
 
 
-def remove_from_list_all_negative_numbers(data: List[int]) -> list:
+def remove_from_list_all_negative_numbers(data: List[int]) -> list:   
     """
     Use loops to solve this task.
     You could use data.remove(negative_number) to solve this issue.
